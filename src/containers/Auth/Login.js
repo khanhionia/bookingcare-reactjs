@@ -90,9 +90,9 @@ class Login extends Component {
                                     className='form-control' placeholder='Enter your password' />
                                 <span onClick={() => this.handleShowHidePassword()}>
                                     {this.state.isShowPassword ?
-                                        <i class="fas fa-eye"></i>
+                                        <i className="fas fa-eye"></i>
                                         :
-                                        <i class="fas fa-eye-slash"></i>
+                                        <i className="fas fa-eye-slash"></i>
                                     }
                                 </span>
                             </div>
@@ -111,8 +111,8 @@ class Login extends Component {
                             <span>Or Login with</span>
                         </div>
                         <div className='col-12 social-login'>
-                            <i class="fab fa-google-plus-g google"></i>
-                            <i class="fab fa-facebook-f facebook"></i>
+                            <i className="fab fa-google-plus-g google"></i>
+                            <i className="fab fa-facebook-f facebook"></i>
                         </div>
                     </div>
                 </div>
